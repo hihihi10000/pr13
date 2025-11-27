@@ -134,7 +134,7 @@ class Program
             else if (employee is Director director)
                 director.ApproveBudget();
             
-            Console.WriteLine("---");
+            Console.WriteLine();
         }
     }
 }
